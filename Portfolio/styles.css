@@ -171,11 +171,25 @@ header nav ul li a {
     padding: 50px 0;
 }
 
-#proficiency .container {
+.row {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
 }
+
+.text-col, .img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
 
 #proficiency h2 {
     width: 100%;
